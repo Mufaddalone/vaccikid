@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".hpv">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Human Papillomavirus (HPV)"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#000"
+            android:layout_width="375dp"
+            android:layout_height="650dp"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• Recommended target population for the prevention of cervical cancer: females aged 9–14
+years, prior to becoming sexually active.\n\n• HPV vaccines should be introduced as part of a coordinated strategy to prevent cervical cancer.\n\n• A 2-dose schedule with a 6-month interval between doses is recommended for individuals
+receiving the first dose before 15 years of age. Those aged ≥15 years at the time of the second
+dose are also adequately covered by 2 doses.\n\n•The initial vaccination of multiple cohorts of girls aged 9-14 is recommended when the vaccine
+is first introduced.
+\n\n• If the interval between doses is shorter than 5 months, then a third dose should be given at
+least 6 months after the first dose.\n\n• A 3-dose schedule (0, 1-2, 6 months) should be used for all vaccinations initiated ≥15 years
+of age, including in those younger than 15 years know to be immunocompromised and/or HIV
+infected (regardless of whether they are receiving antiretroviral therapy). It is not necessary to
+screen for HPV infection or HIV infection prior to HPV vaccination.
+"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

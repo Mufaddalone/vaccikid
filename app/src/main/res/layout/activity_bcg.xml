@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".bcg">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BCG Vaccine"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#000"
+            android:layout_width="375dp"
+            android:layout_height="650dp"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• Universal BCG vaccination at birth is recommended in countries or settings with a high incidence of TB and/or high leprosy burden. A single dose of BCG vaccine should be given to all healthy neonates at birth, ideally together with Hepatitis B birth dose.\n\n• Countries with low TB incidence or leprosy burden may choose to selectively vaccinate neonates in high-risk groups.\n\n• BCG vaccination is also recommended for unvaccinated TST- or IGRA-negative older children, adolescents and adults from settings with high incidence of TB and/or high leprosy burden, those moving from low to high TB incidence/ leprosy burden settings and persons at risk of occupational exposure in low and high TB incidence areas (e.g. health-care workers, laboratory workers, medical students, prison workers, other individuals with occupational exposure).\n\n• BCG vaccination is not recommended during pregnancy\n\n• If HIV-infected individuals, including children, are receiving ART, are clinically well and immunologically stable 5 years or CD4 count ≥200 if aged >5 years) they should be vaccinated with BCG. Neonates born to women of unknown HIV status should be vaccinated as the benefits of BCG vaccination outweigh the risks. Neonates of unknown HIV status born to HIV infected women should be vaccinated if they have no clinical evidence suggestive of HIV infection, regardless of whether the mother is receiving ART. For neonates with HIV infection confirmed by early virological testing, BCG vaccination should be delayed until ART has been started and the infant confirmed to be immunologically stable"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

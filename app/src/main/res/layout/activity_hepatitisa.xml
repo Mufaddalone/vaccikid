@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".hepatitisa">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hepatitis A Vaccine"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="375dp"
+            android:layout_height="550dp"
+            android:textColor="#000"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• Hepatitis A vaccination is recommended for inclusion in the national immunization schedule
+for children ≥ 1 year if indicated on the basis of incidence of acute hepatitis A, change in the
+endemicity from high to intermediate, and consideration of cost-effectiveness.\n\n• In highly endemic countries almost all persons are asymptomatically infected with HAV in
+childhood, which effectively prevents clinical hepatitis A in adolescents and adults. In these
+countries, large-scale vaccination programmes are not recommended.\n\n• Countries with improving socioeconomic status may rapidly move from high to intermediate
+endemicity. In these countries, a relatively large proportion of the adult population is susceptible
+to HAV and large-scale hepatitis A vaccination is likely to be cost-effective and therefore is
+encouraged.\n\n•For individual health benefit targeted vaccination of high-risk groups should be considered in
+low and very low endemicity settings. Those at increased risk of hepatitis A include travelers
+to areas of intermediate or high endemicity, those requiring life-long treatment with blood
+products, men who have sex with men, workers in contact with non-human primates, and
+injection drug users. In addition, patients with chronic liver disease are at increased risk for
+fulminant hepatitis A and should be vaccinated.\n\n• Inactivated HAV vaccine is licensed for intramuscular administration in a 2-dose schedule with
+the first dose given at the age of 1 year or older. The interval between the first and second
+dose is flexible (from 6 months up to 4-5 years) but is usually 6-18 months. Countries may
+consider a 1-dose schedule as this option seems comparable in terms of effectiveness, and is
+less expensive and easier to implement. However, in individuals at substantial risk of contracting
+hepatitis A and in immunocompromised individuals, a 2-dose schedule is preferred. Inactivated
+HAV vaccines produced by different manufacturers, including combined hepatitis A vaccines,
+are interchangeable. Apart from severe allergic reaction to the previous dose, there is no
+contraindication to their use. These vaccines can be co-administered simultaneously with other
+routine childhood vaccines, and should be considered for use in pregnant women at definite risk
+of HAV infection"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

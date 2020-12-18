@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vaccinereminder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".cholera" />
+        <activity android:name=".hpv" />
+        <activity android:name=".measles" />
+        <activity android:name=".rotavirus" />
+        <activity android:name=".pneumococcal" />
+        <activity android:name=".hib" />
+        <activity android:name=".dtp" />
+        <activity android:name=".ViewAddedChild" />
+        <activity android:name=".AddChild" />
+        <activity android:name=".calendar" />
+        <activity android:name=".typhoid" />
+        <activity android:name=".hepatitisa" />
+        <activity android:name=".polio" />
+        <activity android:name=".hepatitisb" />
+        <activity android:name=".bcg" />
+        <activity android:name=".Welcome_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

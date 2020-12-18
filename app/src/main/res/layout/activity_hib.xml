@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".hib">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hib Vaccine"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#000"
+            android:layout_width="375dp"
+            android:layout_height="650dp"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• The use of Hib vaccines should be part of a comprehensive strategy to control pneumonia
+including exclusive breastfeeding for six months, hand washing with soap, improved water
+supply and sanitation, reduction of household air pollution, and improved case management at
+community and health facility levels.\n\n• WHO recommends that any one of the following Hib immunization schedules may be followed:
+3 primary doses without a booster (3p); 2 primary doses plus a booster (2p+1); and 3 primary
+doses with a booster (3p+1).\n\n• Because serious Hib disease occurs most commonly in children aged between 4 months and
+18 months, immunization should start from 6 weeks of age, or as early as possible thereafter.\n\n• The number of primary doses should be set after consideration of the local epidemiology, vaccine
+presentation (Hib conjugate monovalent vaccine versus Hib conjugate vaccine in combination
+with other antigens) and how this fits into the overall routine immunization schedule.\n\n• In countries where the peak burden of severe Hib disease occurs in young infants, providing 3
+doses of vaccine early in life may confer a greater benefit.
+\n\n• In some settings (e.g. where the greatest disease morbidity and mortality occur later, or where
+rate reductions of disease are not fully sustained after the routine use of Hib vaccine), it might
+be advantageous to give a booster dose by following either a 2p+1 or 3p+1 schedule.\n\n• The interval between doses should be at least 4 weeks if 3 primary doses are given, and at least
+8 weeks if 2 primary doses are given. Booster doses should be administered at least six months
+after completion of the primary series."
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

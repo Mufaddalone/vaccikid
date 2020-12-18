@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".cholera">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cholera"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#000"
+            android:layout_width="375dp"
+            android:layout_height="650dp"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• Appropriate case management, WaSH interventions, surveillance and community mobilization
+remain the cornerstones of cholera control. Vaccination should be implemented in relevant
+settings as part of comprehensive cholera control strategies or while other activities are being
+developed.\n\n• WC vaccines (Shanchol, Euvchol, and mORCVAX) 2 doses should be given 14 days apart to
+individuals ≥1 year of age. For WC-rBS vaccine (Dukoral) 3 doses should be given to children
+2-5 years of age, and 2 doses to children aged ≥6 years and adults, with an interval of 1-6
+weeks between doses in both groups.\n\n• Revaccination is recommended where there is continued risk of V. cholerae infection. For WC
+vaccines revaccination is recommended after 3 years. For WC-rBS vaccine: children age 2-5
+years revaccination is recommended within 6 months. If less than 6 months have passed, 1
+dose for revaccination. If more than 6 months have passed, the primary series of 3 doses
+should be repeated. For those aged ≥6 years of age, if less than 2 years have passed, 1 dose
+for revaccination. If more than 2 years have passed, the primary series of 2 doses should be
+repeated.\n\n•In cholera-endemic countries, vaccination of the entire population (throughout a country
+regardless of risk) is usually not warranted. Vaccination policies and strategies should be guided
+by an assessment of the risk of cholera and targeted to cholera hotspots. Strategies targeting
+specific age groups at higher risk of disease may be considered.
+
+\n\n•For control of cholera outbreaks vaccination should be considered to help prevent the spread
+to new areas. For vaccination campaigns, a single-dose strategy using WC vaccines (Shanchol,
+Euvchol or mORCVAX) could be considered in areas experiencing cholera outbreaks.\n\n• During humanitarian emergencies with a risk of cholera, but without a current cholera outbreak,
+vaccination with OCV should be considered as an additional preparedness measure for outbreak
+prevention, depending on the local infrastructure (capacity to organize a vaccination campaign).\n\n• Pregnant and lactating women and HIV infected individuals should be included in OCV campaigns
+since there is a high potential benefit and minimal risks.
+"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

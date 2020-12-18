@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".measles">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measles Vaccine"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#000"
+            android:layout_width="375dp"
+            android:layout_height="650dp"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• Reaching all children with 2 doses of measles vaccine should be the standard for all national
+immunization programmes. In addition to the first routine dose of MCV1, all countries should
+add a second routine dose of MCV2 to their national immunization schedules regardless of the
+level of MCV1 coverage.\n\n• In countries with ongoing transmission in which the risk of measles mortality remains high,
+MCV1 should be given at age 9 months. MCV2 should be given between 15-18 months, as
+providing MCV2 in the 2nd year of life reduces the rate of accumulation of susceptible children
+and the risk of an outbreak. The minimum interval between MCV1 and MCV2 is 4 weeks.\n\n• Because many cases of measles occur in children aged >12 months who have not been
+vaccinated, routine delivery of MCV1 should not be limited to infants aged 9–12 months and
+routine delivery of MCV2 should not be limited to infants 15 to 18 months of age. Every
+opportunity (e.g. when children come into contact with health services) should be taken to
+vaccinate all children that missed one or both MCV routine doses, particularly those under 15
+years of age. Policies which prohibit use of vaccine in children >1 year of age, older children and
+teenagers should be changed to allow these individuals to be vaccinated.\n\n•In countries with low levels of measles transmission (i.e. those that are near elimination or
+verified as having eliminated endemic measles virus transmission) and therefore the risk of
+measles virus infection among infants is low, MCV1 may be administered at 12 months of age
+to take advantage of the higher seroconversion rates achieved at this age. In these countries,
+the optimal age for delivering MCV2 is based on programmatic considerations to achieve the
+highest coverage of MCV2 and, hence, the highest population immunity. Administration of
+MCV2 at 15-18 months of age ensures early protection of the individual, slows accumulation of
+susceptible young children, and may correspond to the schedule for other routine immunizations
+(for example, a DTP-containing booster, PCV, or meningococcal vaccines). This measure also
+supports the establishment of a policy on immunization and other health interventions in the
+second year of life. If MCV1 coverage is high (>90%) and school enrolment is high (>95%),
+administration of routine MCV2 at school entry may prove an effective strategy for achieving
+high coverage and preventing outbreaks in schools.
+\n\n• For programmatic reasons (e.g. to reduce cold storage needs and vaccine wastage), it is
+recommended that the same vaccine formulation is used for both routine doses of MCV.
+"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

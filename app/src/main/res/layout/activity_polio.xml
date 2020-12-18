@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".polio">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polio Vaccine"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="375dp"
+            android:layout_height="550dp"
+            android:textColor="#000"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• For all countries using OPV in the national immunization programme, WHO recommends the
+inclusion of at least one dose of IPV in the vaccination schedule.\n\n• In polio-endemic countries and in countries at high risk for importation and subsequent spread
+of poliovirus, WHO recommends a bOPV birth dose (zero dose) followed by a primary series of
+3 bOPV doses and at least 1 IPV dose.\n\n• The zero dose of bOPV should be administered at birth, or as soon as possible after birth, to
+maximize seroconversion rates following subsequent doses and to induce mucosal protection.\n\n• The primary series consisting of 3 bOPV doses plus 1 IPV dose can be initiated from the age of
+6 weeks with a minimum interval of 4 weeks between the bOPV doses. If 1 dose of IPV is used,
+it should be given at 14 weeks of age or later (when maternal antibodies have diminished and
+immunogenicity is significantly higher) and can be co-administered with a bOPV dose.\n\n• The primary series can be administered according to the regular schedules of national
+immunization programmes, e.g. at 6, 10, and 14 weeks (bOPV, bOPV, bOPV+IPV), or at 2, 4,
+and 6 months (bOPV, bOPV+IPV, bOPV or bOPV, bOPV, bOPV+IPV).\n\n• Both OPV and IPV may be co-administered with other infant vaccines.\n\n• For infants starting the routine immunization schedule late (age >3 months) the IPV dose should
+be administered at the first immunization contact along with bOPV and the other routinely
+recommended vaccines."
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bbd"
+    tools:context=".rotavirus">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotavirus Vaccine"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:layout_width="373dp"
+        android:layout_height="599dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textColor="#000"
+            android:layout_width="375dp"
+            android:layout_height="650dp"
+            android:background="@drawable/dashboard"
+            android:padding="15dp"
+            android:text="• Early immunization is favoured with the first dose of rotavirus vaccine to be administered from
+6 weeks of age, however, in order to benefit those who may come late infants can receive doses
+without age restriction. Because of the typical age distribution of rotavirus gastroenteritis
+(RVGE), rotavirus vaccination of children >24 months of age is not recommended\n\n• Rotarix is administered orally in a 2-dose schedule at the time of DTPCV with an interval of at
+least 4 weeks between doses.\n\n• RotaTeq vaccine is administered orally in a 3-dose schedule at the time of DTPCV contacts, with
+an interval of at least 4 weeks between doses.\n\n• Rotavac vaccine is administered orally as a 3 dose schedule at the time of DTPCV, with an
+interval of at least 4 weeks between doses.
+\n\n• Rotavirus vaccinations can be administered simultaneously with other vaccines in the infant
+immunization programme.\n\n•Apart from a low risk of intussusception (about 1-2 per 100 000 infants vaccinated) the current
+rotavirus vaccines are considered safe and well tolerated.\n\n• Apart from a low risk of intussusception (about 1-2 per 100 000 infants vaccinated) the current
+rotavirus vaccines are considered safe and well tolerated.\n\n• Precautions are necessary if there is a history of intussusception or intestinal malformations,
+chronic gastrointestinal disease, and severe acute illness. Vaccination should be postponed in
+case of ongoing acute gastroenteritis or fever with moderate to severe illness
+"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.756" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
