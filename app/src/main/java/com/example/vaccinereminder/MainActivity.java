@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
         PendingIntent broadcast = PendingIntent.getBroadcast(this, 100, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         Calendar calender = Calendar.getInstance();
-        calender.set(Calendar.HOUR_OF_DAY,0);
-        calender.set(Calendar.MINUTE,0);
-        calender.set(Calendar.SECOND,10000);
+        calender.set(Calendar.HOUR_OF_DAY,15);
+        calender.set(Calendar.MINUTE,25);
+        calender.set(Calendar.SECOND,0);
         calender.set(Calendar.AM_PM,Calendar.AM);
         alarmManager.set(AlarmManager.RTC_WAKEUP, calender.getTimeInMillis(), broadcast);
 
