@@ -2,12 +2,17 @@ package com.example.vaccinereminder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +44,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),AddChild.class));
             }
         });
+
+        AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+
+        Intent notificationIntent = new Intent(this, ReminderBroadcast.class);
+        PendingIntent broadcast = PendingIntent.getBroadcast(this, 100, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        Calendar calender = Calendar.getInstance();
+        calender.set(Calendar.HOUR_OF_DAY,0);
+        calender.set(Calendar.MINUTE,0);
+        calender.set(Calendar.SECOND,10000);
+        calender.set(Calendar.AM_PM,Calendar.AM);
+        alarmManager.set(AlarmManager.RTC_WAKEUP, calender.getTimeInMillis(), broadcast);
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override

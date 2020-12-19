@@ -76,6 +76,12 @@ public class AddChild extends AppCompatActivity {
                     return;
                 }
 
+                if(number.length()<10)
+                {
+                    phone.setError("Enter a 10 digit number");
+                    return;
+                }
+
                 if(TextUtils.isEmpty(gen)){
                     gender.setError("Enter Child's Gender");
                     return;

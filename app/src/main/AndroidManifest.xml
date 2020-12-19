@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name=".NotificationActivity"></activity>
         <activity android:name=".cholera" />
         <activity android:name=".hpv" />
         <activity android:name=".measles" />
@@ -36,6 +37,12 @@
         <activity android:name=".Login" />
         <activity android:name=".SignUp" />
         <activity android:name=".MainActivity" />
+
+        <receiver android:name=".ReminderBroadcast">
+            <intent-filter>
+                <action android:name="action.DISPLAY_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
